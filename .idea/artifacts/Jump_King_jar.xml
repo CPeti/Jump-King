@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Jump King:jar">
+    <output-path>$PROJECT_DIR$/../Jump-King</output-path>
+    <root id="archive" name="Jump King.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../Jump-King/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Jump King" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/junit4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/json-simple-2.1.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
